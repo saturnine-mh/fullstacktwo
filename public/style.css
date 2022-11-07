@@ -1,0 +1,24 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 100px;
+}
+#savageImg{
+  height: 200px;
+}
+#profileBody{
+  background: url('img/teslaGif.gif');
+  
+}
+#profileQuestions{
+  border: 1px transparent black;
+  background: rgba(250,250,250);
+  padding: 5%;
+}
+#blackCheck{
+  background-color: black;
+  background-image: url('img/red.png');
+}
+
