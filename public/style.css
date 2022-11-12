@@ -1,5 +1,5 @@
 body{
-  padding-top:80px;
+
   word-wrap:break-word;
 }
 img{
@@ -21,4 +21,134 @@ img{
   background-color: black;
   background-image: url('img/red.png');
 }
+body{
 
+  word-wrap:break-word;
+  font-family: ff-chambers-sans-web,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+  height:200px;
+}
+.strike{
+  text-decoration: line-through;
+  color: black
+}
+.indexWhite, #toDoIndex{
+  color: white;
+}
+html{
+  font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3{
+  font-family: 'Oswald', sans-serif;
+}
+#list{
+  font-family: 'Oswald', sans-serif;
+}
+#listItem{
+  color: navy
+}
+#greyBack, #greyBackProfile{
+  background: grey;
+}
+.contentCenter{
+  text-align: center;
+}
+.loginButton{
+  color: black;
+}
+.loginCard{
+  background: black;
+margin-top: 10%;
+width: 45%;
+margin-left: 26%;
+}
+.greyBack{
+  background: grey;
+}
+#toDoIndex{
+  font-size: 30px;
+}
+#indexImg{
+  height: 75px;
+}
+#logInBox{
+  border-radius: 80px; 
+border: 2px solid #000000;
+  margin: 5% 30%;
+  padding: 10%;
+  background-color: black;
+}
+.logInText{
+  color: white;
+}
+#profileBody{
+  margin-top: 5%;
+}
+#logInMain{
+  background-color: rgb(39, 36, 85);
+}
+#greyBackProfile{
+  background-image: url('img/notebook.gif');
+ background-size: cover;
+}
+#profileInfo{
+ font-size: 10px;
+}
+#profileInfoText{
+  font-size: 15px;
+}
+#contentBoxes{
+  display: flex;
+  justify-content: baseline;
+}
+.profileTaskList{
+  background-image: url('img/paper.jpeg');
+}
+#profileTaskText{
+  margin-left: 9%;
+}
+
+.colorChoice{
+  height: 50px;
+}
+.teslaMain{
+
+  background-image: url('img/teslabackground.avif');
+  
+}
+.teslaMain{
+margin-bottom: 15%;
+  margin-right: 18%;
+}
+#teslaMainInfo{
+  margin-left: 25%;
+  background: transparent;
+}
+.textFont{
+  font-family: 'Oswald', sans-serif;
+}
+
+#navBar{
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+.heroText{
+  text-align: center;
+  margin-left: 20%;
+
+  
+}
+#smallIndexText{
+  text-align: center;
+}
+#bigIndexText{
+  font-size: 50px;
+}
+#logoutButton{
+  margin-left: 45%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}

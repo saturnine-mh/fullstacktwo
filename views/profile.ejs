@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/64f61a52ef.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <style>
   .red {
@@ -22,30 +25,13 @@
 <body id="profileBody">
 <div class="container">
 
-    <div class="page-header text-center">
-        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
-        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
-    </div>
-
     <div class="row">
 
         <!-- LOCAL INFORMATION -->
         
         <div class="col-sm-6">
             <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
 
-                <% if (user.local.email) { %>
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
-                    </p>
-
-                    <a href="/unlink/local" class="btn btn-default">Unlink</a>
-                <% } else { %>
-                    <a href="/connect/local" class="btn btn-default">Connect Local</a>
-                <% } %>
                 <h3>Your Tesla's</h3>
                 <section>
                 <ul class="messages">
@@ -148,17 +134,17 @@
             <h2>Question 5:<br>
             What color?</h2>
         <div>
-          <img src="img/white.png" alt="Pearl White Color">
+          <img class="colorChoice" src="img/white.png" alt="Pearl White Color">
             <input type="radio" class="question" name="five" value="Pearl White" required>
             <label for="a">Pearl White</label>
         </div>
         <div>
-          <img src="img/red.png" alt="Red Multi Coat Color">
+          <img class="colorChoice" src="img/red.png" alt="Red Multi Coat Color">
             <input type="radio" class="question" name="five" value="Red Multi Coat" required>
             <label for="b">Red Multi Coat</label>
         </div>
         <div>
-          <img src="img/black.png" alt="Black Color">
+          <img class="colorChoice" src="img/black.png" alt="Black Color">
             <input type="radio" class="question" name="five" value="Solid Black" required>
             <label for="c">Solid Black</label>
         </div>
@@ -173,6 +159,11 @@
         <% } %>
       </section>
 </div>
+
+
+  <a id="logoutButton" href="/logout" class="btn btn-default btn-sm">Logout</a>
+
+
 
 <script src="main.js"></script>
 
